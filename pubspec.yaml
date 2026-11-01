@@ -1,0 +1,23 @@
+name: zenvora
+description: Zenvora Android app wrapper
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  google_fonts: ^6.2.1
+  geolocator: ^13.0.2
+  http: ^1.2.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.3.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/web/
